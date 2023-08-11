@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    padding: 20px;
+}
+
+p {
+    background-color: #34495E;
+    border-radius: 20px;
+    padding: 21px 61px;
+    margin: 15px;
+}
+
+p {
+    color: white;
+}
