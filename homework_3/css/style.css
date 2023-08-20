@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  } 
+
+body {
+    padding: 15px;
+}
+
+.main {
+    width: 420px;
+    height: 440px;
+    padding: 16px;
+    margin: 15px auto;
+    border-radius: 5px;
+    box-shadow: 15px 5px 10px 10px #6061700F;
+    border-radius: 20px;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin-bottom: 20px;
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+form button  {
+    cursor: pointer;
+    width: 356px;
+    height: 48px;
+    padding: 14px, 24px, 14px, 24px;
+    border-radius: 55px;
+    margin-bottom: 20px;
+}
+
+.item_1 {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.item_2 {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    color: #7B8E98;
+    cursor: pointer;
+    width: 356px;
+    height: 110px;
+}
+
+.submit {
+    background-color: #FFE44D;
+}
+
+.name {
+    border-color: #FFE44D;
+}
+
