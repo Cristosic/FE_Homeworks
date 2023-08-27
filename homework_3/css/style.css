@@ -2,71 +2,88 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  } 
-
-body {
-    padding: 15px;
-}
-
-.main {
-    width: 420px;
-    height: 440px;
-    padding: 16px;
-    margin: 15px auto;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  button,
+  input {
+    font-family: inherit;
+    outline: none;
+  }
+  
+  .sign-up {
+    position: relative;
+    font-family: "Nunito", sans-serif;
+    max-width: 420px;
     border-radius: 5px;
-    box-shadow: 15px 5px 10px 10px #6061700F;
+    box-shadow: 0px 20px 32px 0px rgba(96, 97, 112, 0.24),
+      0px 2px 8px 0px rgba(40, 41, 61, 0.08);
     border-radius: 20px;
-}
+    padding: 24px 16px 16px 16px;
+  }
 
-h1 {
-    font-family: 'Lato', sans-serif;
-    font-family: 'Nunito', sans-serif;
-    margin-bottom: 20px;
-}
+  .close-icon {
+    position: absolute;
+    top: 21px;
+    right: 21px;
+    cursor: pointer;
 
-form {
+  }
+
+  .container {
     display: flex;
     flex-direction: column;
-}
-
-form input {
-    margin-bottom: 20px;
-}
-
-.item {
-    margin-bottom: 20px;
-}
-
-form button  {
-    cursor: pointer;
-    width: 356px;
-    height: 48px;
-    padding: 14px, 24px, 14px, 24px;
-    border-radius: 55px;
-    margin-bottom: 20px;
-}
-
-.item_1 {
-    font-family: 'Lato', sans-serif;
-    font-family: 'Nunito', sans-serif;
+    gap: 24px 0;
+    padding: 16px;
+  }
+  
+  .heading {
+    font-size: 28px;
+    font-weight: 800;
+  }
+  
+  .inputs,
+  .buttons {
     display: flex;
     flex-direction: column;
-}
-
-.item_2 {
-    font-family: 'Lato', sans-serif;
-    font-family: 'Nunito', sans-serif;
-    color: #7B8E98;
+    gap: 8px 0;
+  }
+  
+  .input {
+    padding: 14px 16px;
+    border-radius: 12px;
+    border: 1px solid #cfd8dc;
+  }
+  
+  .input:focus {
+    border: 1px solid #ffe44d;
+  }
+  
+  .agreement {
+    font-size: 12px;
+    line-height: 14px;
+    color: #7b8e98;
+  }
+  
+  .button {
+    padding: 14px 24px;
+    border-radius: 87px;
+    border: 1px solid #cfd8dc;
+    background-color: transparent;
     cursor: pointer;
-    width: 356px;
-    height: 110px;
-}
-
-.submit {
-    background-color: #FFE44D;
-}
-
-.name {
-    border-color: #FFE44D;
-}
-
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a1a1a;
+  }
+  
+  .sign-up-btn {
+    background: #ffe44d;
+    border: 1px solid #ffe44d;
+    transition: all 150ms;
+  }
